@@ -23,7 +23,7 @@ Pour les plus avancés vous pouvez rajouter des fonctionnalités Javascript avec
 2. [jQuery](https://jquery.com/)
 3. [nodejs](https://nodejs.org/)
 4. [Sass](https://sass-lang.com/)
-5. [BrowserSync](https://www.browsersync.io/)
+5. [Browser sync](https://www.browsersync.io/)
 6. [Gulp](https://gulpjs.com/)
 
 
