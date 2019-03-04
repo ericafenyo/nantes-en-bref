@@ -1,0 +1,22 @@
+{
+  "name": "nantes-en-bref",
+  "version": "1.0.0",
+  "description": "Un blog sur la ville de Nantes.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ericafenyo/nantes-en-bref.git"
+  },
+  "author": "Eric, Samantha, Gwendaline",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ericafenyo/nantes-en-bref/issues"
+  },
+  "homepage": "https://github.com/ericafenyo/nantes-en-bref#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
