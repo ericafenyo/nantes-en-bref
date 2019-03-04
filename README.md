@@ -1,7 +1,7 @@
 ## Nantes en bref.
 
 #### Objectif
-L'objectif est de faire un blog sur la ville de Nantes avec plusieurs pages, des photo et des descriptions.
+L'objectif est de faire un blog sur la ville de Nantes avec plusieurs pages, des photos et des descriptions.
 
 #### Contraintes fonctionnelles
 - [ ] Le site devra contenir au moins 5 pages et comporter une homepage et une page de contact.
