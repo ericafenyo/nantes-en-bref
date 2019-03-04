@@ -11,7 +11,7 @@ L'objectif est de faire un blog sur la ville de Nantes avec plusieurs pages, des
 #### Contraintes techniques
 - [ ] Utilisation de HTML et CSS (framework autorisé).
 - [ ] Utilisation de Git.
-- [ ] Les textes des pages sont réalisés en Lorem Ipsum (https://fr.lipsum.com).
+- [ ] Les textes des pages sont réalisés en [Lorem Ipsum](https://fr.lipsum.com).
 - [ ] Le développement se fera en anglais (classe, commentaires…).
 
 #### Optionnelle
