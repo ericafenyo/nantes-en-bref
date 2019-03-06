@@ -1,0 +1,8 @@
+
+$(document).ready(() => {
+
+});
+
+const readInputs = ()=>{
+    
+}
