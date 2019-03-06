@@ -1,0 +1,20 @@
+@import url("./bootstrap.css");
+textarea {
+  resize: none; }
+
+.contact-img {
+  background-image: url("https://via.placeholder.com/1000");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.contact-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  height: 100vh; }
+
+.contact-row {
+  width: 100%; }
+
+/*# sourceMappingURL=contact.css.map */

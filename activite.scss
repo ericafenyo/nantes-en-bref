@@ -1,0 +1,47 @@
+@import url('./bootstrap.css');
+
+body,
+html,
+section,
+.container,
+.row,
+.side-nav {
+    height: 100vh;
+}
+
+.caption{
+    tab-size: 12px;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.side-nav{
+    padding: 0;
+}
+
+.master-detail {
+    padding: 0;
+}
+
+.lsitview{
+    border-radius: none !important;
+    background: white;
+}
+.list-item{
+    padding: 8px 16px;
+    display: flex;
+    border-bottom: 1px solid #dddddd;
+
+    img{
+        width: 80px;
+        height: 80px;
+        margin-right: 10px;
+        border-radius: 4px;
+    }
+    
+    &:hover{
+        background: #dddddd
+    }
+}

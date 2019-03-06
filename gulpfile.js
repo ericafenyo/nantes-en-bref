@@ -16,30 +16,30 @@ gulp.task("browser-sync", function () {
 //Sass compiler
 gulp.task("sass", function () {
   return gulp
-    .src("./*.scss")
+    .src("*.scss")
     .pipe(sass().on("error", sass.logError))
     .pipe(gulp.dest("./"));
 });
 
 //html task
 gulp.task("html", function () {
-  gulp.src("./*.html").pipe(browserSync.reload({
+  gulp.src("*.html").pipe(browserSync.reload({
     stream: true
   }));
 });
 
 //css task
 gulp.task("css", function () {
-  gulp.src("./*.css").pipe(browserSync.reload({
+  gulp.src("*.css").pipe(browserSync.reload({
     stream: true
   }));
 });
 
 // Watch changes in html,css and sass files
 gulp.task("watch", function () {
-  gulp.watch(["./*.html"], ["html"]);
-  gulp.watch(["./*.css"], ["css"]);
-  gulp.watch("./*.scss", ["sass"]);
+  gulp.watch(["*.html"], ["html"]);
+  gulp.watch(["*.css"], ["css"]);
+  gulp.watch("*.scss", ["sass"]);
 });
 
 //default task
