@@ -2,35 +2,38 @@
 body,
 html,
 section,
-.container,
-.row,
-.side-nav {
-  height: 100vh; }
+.container .side-nav,
+.listview {
+  height: 100%; }
 
-.caption {
-  tab-size: 12px; }
-
-a, a:hover {
+a,
+a:hover {
   text-decoration: none; }
 
 .side-nav {
+  display: flex;
   padding: 0; }
 
 .master-detail {
-  padding: 0; }
+  padding: 0;
+  overflow: scroll; }
 
-.lsitview {
+.listview {
   border-radius: none !important;
-  background: white; }
+  background: white;
+  flex-basis: 380px;
+  flex-shrink: 0;
+  overflow: scroll; }
 
 .list-item {
-  padding: 8px 16px;
+  padding: 24px;
   display: flex;
-  border-bottom: 1px solid #dddddd; }
+  background: white;
+  border-bottom: 1px solid rgba(46, 91, 255, 0.08); }
   .list-item img {
     width: 80px;
     height: 80px;
     margin-right: 10px;
     border-radius: 4px; }
   .list-item:hover {
-    background: #dddddd; }
+    background: rgba(46, 91, 255, 0.08); }

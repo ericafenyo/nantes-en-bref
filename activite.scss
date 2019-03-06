@@ -1,47 +1,54 @@
 @import url('./bootstrap.css');
+$border-color: rgba(46, 91, 255, 0.08);
+$caption-color:#8798AD;
+$body-color:#2e384d;
 
 body,
 html,
 section,
-.container,
-.row,
-.side-nav {
-    height: 100vh;
+.container .side-nav,
+.listview {
+    height: 100%;
 }
 
-.caption{
-    tab-size: 12px;
-}
-
-a, a:hover{
+a,
+a:hover {
     text-decoration: none;
 }
 
-.side-nav{
+.side-nav {
+    display: flex;
     padding: 0;
+
 }
 
 .master-detail {
     padding: 0;
+    overflow: scroll;
 }
 
-.lsitview{
+.listview {
     border-radius: none !important;
     background: white;
+    flex-basis: 380px;
+    flex-shrink: 0;
+    overflow: scroll;
 }
-.list-item{
-    padding: 8px 16px;
-    display: flex;
-    border-bottom: 1px solid #dddddd;
 
-    img{
+.list-item {
+    padding: 24px;
+    display: flex;
+    background: white;
+    border-bottom: 1px solid $border-color;
+
+    img {
         width: 80px;
         height: 80px;
         margin-right: 10px;
         border-radius: 4px;
     }
-    
-    &:hover{
-        background: #dddddd
+
+    &:hover {
+        background: $border-color;
     }
 }
