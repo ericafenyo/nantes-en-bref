@@ -2,10 +2,8 @@
 $(document).ready(() => {
     $('#submit-button').click((event) => {
         //Prevent default onClick event behaviour.
-        alert("Hello")
-        // event.preventDefault()
-        // const inputs = readInputs()
-        // alert(inputs)
+        event.preventDefault()
+        readInputs()
     })
 });
 
@@ -17,6 +15,8 @@ const readInputs = () => {
     const emialAddress = $('#input-email').val()
     const message = $('#input-message').val()
 
+
+    /* If all values are truthy, proceed to print them, else display an error messsage.*/
     if (fullName && emialAddress && message) {
         const info = {
             name: fullName,
@@ -24,13 +24,9 @@ const readInputs = () => {
             message: message
         }
 
-        return info
+        alert(`FullName: ${info.name} Email: ${info.emial} Message: ${info.message}`)
+        // return info
     } else {
-        notifyError("Please fill all the fields")
+        alert("Please fill all the fields")
     }
-}
-
-//displays a dialog box with `message` as text.
-const notifyError = (message) => {
-    alert(message)
 }
