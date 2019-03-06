@@ -1,6 +1,7 @@
 // $border-color: rgba(46, 91, 255, 0.08);
 $caption-color:#8798AD;
 $theme-colors:("primary": #2e5bff,
+"info": #49B7FF
 );
 
 @import "./node_modules/bootstrap/scss/bootstrap";
@@ -19,6 +20,12 @@ $body-color:#2e384d;
     line-height: 1.2;
     color: $body-color;
     margin-bottom: 8px;
+}
+
+.header-1 {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 0.94;
 }
 
 .header-2 {
