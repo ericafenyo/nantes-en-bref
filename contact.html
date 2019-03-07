@@ -1,109 +1,117 @@
 <!DOCTYPE ht<!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
   <link rel="stylesheet" href="contact.css">
   <title>Nantes en bref | Contact</title>
 </head>
+
 <body>
   <header>
-    <!-- Nav Bar -->
-    <ul class="nav nav-fill bg-info p-2">
-      <li class="nav-item text-light bg-info">
-        <a class="nav-link text-light bg-info" href="index.html">LogoNantes</a>
-      </li>
-      <li class="nav-item d-none d-lg-block d-md-block d-xl-block">
-        <a class="nav-link text-light bg-info" href="index.html">Acceuil</a>
-      </li>
-      <li class="nav-item d-none d-lg-block d-md-block d-xl-block">
-        <a class="nav-link text-light bg-info" href="actualite.html">Actualité</a>
-      </li>
-      <li class="nav-item d-none d-lg-block d-md-block d-xl-block">
-        <a class="nav-link text-light bg-info" href="activite.html">Activité</a>
-      </li>
-      <li class="nav-item d-none d-lg-block d-md-block d-xl-block">
-        <a class="nav-link text-light bg-info" href="Vie-pratique.html">Vie Pratique</a></li>
-        <li class="nav-item">
-          <a class="nav-link text-light bg-info d-none d-lg-block d-md-block d-xl-block" href="bg-info">Contact</a>
-        </li>
-        <div class="btn-group d-block-d-sm-block d-md-none d-lg-none d-xl-none">
-          <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Menu
-          </button>
-          <div class="dropdown-menu dropdown-menu-right bg-info">
-            <button class="dropdown-item text-light bg-info"><a class="text-light bg-info" href="index.html">Acceuil</a></button>
-            <button class="dropdown-item text-light bg-info"><a class="text-light bg-info"  href="actualite.html
-              ">Actualité</a></button>
-              <button class="dropdown-item text-light bg-info"><a class="text-light bg-info"  href="Activit.html">Activité</a></button>
-              <button class="dropdown-item text-light bg-info"><a class="text-light bg-info"  href="vie-pratique.html">Vie pratique</a></button>
-              <button class="dropdown-item text-light bg-info"><a class="text-light bg-info"  href="Contact.html">Contact</a></button>
-            </div>
-          </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav border-bottom">
+      <a class="navbar-brand" href="/">Nantes en bref </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./actualite.html">Actualité <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./activite.html">Activité</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./vie-pratique.html">Vie Pratique</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
         </ul>
-    </header>
-   <section>
-            <div class="container">
-                <div class="contact-wrapper">
-                    <div class="row contact-row">
-                        <div class="col-md-8 p-4">
-                            <form>
-                                <p class="header-3 mb-4">Contact us</p>
-                                <div class="form-group">
-                                    <label class="label text-label" for="input-name">Full name</label>
-                                    <input type="text" class="form-control" id="input-name" placeholder="Full name">
-                                </div>
-                                <div class="form-group">
-                                    <label class="label text-label" for="input-email">Email address</label>
-                                    <input type="email" class="form-control" id="input-email" placeholder="Email address">
-                                </div>
-                                <div class="form-group">
-                                    <label class="label text-label" for="input-message">Message</label>
-                                    <textarea class="form-control" id="input-message" rows="3"
-                                        placeholder="Message"></textarea>
-                                </div>
-                            </form>
-                            <button class="btn btn-primary" id="submit-button">Submit</button>
-                        </div>
-                        <div class="col-md-4 contact-img">    
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Footer -->
-        <footer class="bg-info text-light">
-          <div class="row bd-info  justify-content-between pr-5 pl-5 pb-2 pt-2">
-            <ul class="ulFooter bg-info text-light">
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="index.html">Acceuil</a></li>
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="actualite.html">Actualité</a></li>
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="Activite.html">Activité</a></li>
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="vie-pratique.html">Vie pratique</a></li>
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="contact.html">Contact</a></li>
-            </ul>
-            <ul class="ulFooter bg-info text-light">
-              <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Lien d'inspiration</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Lien d'inspiration</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Lien d'inspiration</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Lien d'inspiration</a></li>
-            </ul>
-            <ul class="ulFooter">
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Git Eric</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Git Samantha</a></li>
-              <li class="liFooter bg-info text-light"><a  class="liFooter bg-info text-light"href="">Git Gwendaline</a></li>
-            </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+      </div>
+    </nav>
+  </header>
+  <section>
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="row contact-row">
+          <div class="col-md-8 p-4">
+            <form>
+              <p class="header-2 mb-4">Contact us</p>
+              <div class="alert alert-danger" role="alert" id="alert"></div>
+              <div class="form-group">
+                <label class="label text-label" for="input-name">Full name</label>
+                <input type="text" class="form-control" id="input-name" placeholder="Full name">
+              </div>
+              <div class="form-group">
+                <label class="label text-label" for="input-email">Email address</label>
+                <input type="email" class="form-control" id="input-email" placeholder="Email address">
+              </div>
+              <div class="form-group">
+                <label class="label text-label" for="input-message">Message</label>
+                <textarea class="form-control" id="input-message" rows="3" placeholder="Message"></textarea>
+              </div>
+            </form>
+            <button class="btn btn-primary w-100" id="submit-button">Submit</button>
+
+            <!-- <div class="social mb-5 mt-5 d-flex align-items-center justify-content-center">
+              <div>
+                <i class="fab fa-facebook-f social-link"></i>
+                <i class="fab fa-twitter social-link"></i>
+                <i class="fab fa-slack-hash social-link"></i>
+                <i class="fab fa-slack-hash social-link"></i>
+                <i class="fab fa-instagram social-link"></i>
+              </div>
+            </div> -->
           </div>
-        </footer>
-        <script src="contact.js"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-      </body>
-      </html>
 
+          <div class="col-md-4 contact-img"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer -->
+  <footer class="bg-info text-light">
+    <div class="row bd-info  justify-content-between pr-5 pl-5 pb-2 pt-2">
+      <ul class="ulFooter bg-info text-light">
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="index.html">Acceuil</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="actualite.html">Actualité</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="Activite.html">Activité</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="vie-pratique.html">Vie
+            pratique</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="ulFooter bg-info text-light">
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
+      </ul>
+      <ul class="ulFooter">
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Eric</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Samantha</a></li>
+        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Gwendaline</a></li>
+      </ul>
+    </div>
+  </footer>
 
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="contact.js"></script>
+</body>
 
+</html>
