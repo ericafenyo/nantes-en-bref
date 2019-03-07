@@ -1,13 +1,12 @@
-/*************************************************Acceuil ****************************************************/
+@charset "UTF-8";
+@import url("./bootstrap.css");
 /* Footer */
-.liFooter{
+.liFooter {
   display: list-item;
-  list-style: none;
-}
-
+  list-style: none; }
 
 /* Actualité */
-.quiContient{
+.quiContient {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -32,6 +31,4 @@
   max-width: 90%;
   text-align: justify;
   height: auto;
-  word-wrap: break-word;
-
-}
+  word-wrap: break-word; }
