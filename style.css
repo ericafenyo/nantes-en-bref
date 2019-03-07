@@ -15,17 +15,22 @@
   justify-content: space-between;
 }
 .Macarte{
-  border: 2px solid grey;
+  border: 2px solid #cbcbcb;
+  text-align: justify;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   margin-bottom: 2%;
   width:300px;
+  heigth:669px;
+  overflow: hidden;
 }
 .text1{
-  padding:2%;
+  padding-top: 7%;
+  padding-left: 8%;
+  padding-right: 0%;
   max-width: 90%;
-  text-align: left;
+  text-align: justify;
   height: auto;
   word-wrap: break-word;
 
