@@ -28,14 +28,14 @@ a:hover {
 
 .master-detail {
   padding: 0;
-  overflow-y: scroll; }
+  overflow: scroll; }
 
 .listview {
   border-radius: none !important;
   background: white;
   flex-basis: 380px;
   flex-shrink: 0;
-  overflow-y: scroll; }
+  overflow: scroll; }
 
 .list-item {
   padding: 24px;
