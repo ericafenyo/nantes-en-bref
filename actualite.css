@@ -1,12 +1,8 @@
 @import url("./bootstrap.css");
 .article {
-  display: inline;
-}
-
-.article img {
-  float: left;
-  margin-right: 16px;
-  width: 250px;
-  height: auto;
-}
-/*# sourceMappingURL=actualite.css.map */
+  display: inline; }
+  .article img {
+    float: left;
+    margin-right: 16px;
+    width: 250px;
+    height: auto; }
