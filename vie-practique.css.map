@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,sBAAI;AAEZ,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,iBAAiB;CAC5B",
+    "sources": [
+        "vie-practique.scss"
+    ],
+    "names": [],
+    "file": "vie-practique.css"
+}

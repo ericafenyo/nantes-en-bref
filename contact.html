@@ -2,41 +2,41 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
-  <link rel="stylesheet" href="contact.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./actualite.css" />
   <title>Nantes en bref | Contact</title>
 </head>
-git st
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light main-nav border-bottom">
-      <a class="navbar-brand" href="/">Nantes en bref </a>
+    <nav class="navbar navbar-expand-lg navbar-light background-white border-bottom top-bar">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
+      <div class="collapse navbar-collapse main-nav-wrapper" id="navbarSupportedContent">
+        <ul class="navbar-nav main-nav">
+            <li class="nav-item text-dark bg-info">
+                <a class="nav-link text-dark bg-info" href="index.html"><img height="10%" width="90px" src="image/logo.png" alt=""></a>
+              </li>
+            <li class="nav-item text-dark ">
+                <a class="nav-link" href="./index.html">Accueil<span class="sr-only">(current)</span></a>
+              </li>
+          <li class="nav-item text-dark ">
             <a class="nav-link" href="./actualite.html">Actualité <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-dark">
             <a class="nav-link" href="./activite.html">Activité</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-dark">
             <a class="nav-link" href="./vie-pratique.html">Vie Pratique</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item text-dark">
             <a class="nav-link" href="./contact.html">Contact</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
       </div>
     </nav>
   </header>
@@ -47,7 +47,7 @@ git st
           <div class="col-md-8 p-4">
             <form>
               <p class="header-2 mb-4">Contact us</p>
-              <div class="alert alert-danger" role="alert" id="alert"></div>
+              <div class="alert opacity-0 " role="alert" id="alert">Alert</div>
               <div class="form-group">
                 <label class="label text-label" for="input-name">Full name</label>
                 <input type="text" class="form-control" id="input-name" placeholder="Full name">
@@ -62,56 +62,37 @@ git st
               </div>
             </form>
             <button class="btn btn-primary w-100" id="submit-button">Submit</button>
-
-            <!-- <div class="social mb-5 mt-5 d-flex align-items-center justify-content-center">
-              <div>
-                <i class="fab fa-facebook-f social-link"></i>
-                <i class="fab fa-twitter social-link"></i>
-                <i class="fab fa-slack-hash social-link"></i>
-                <i class="fab fa-slack-hash social-link"></i>
-                <i class="fab fa-instagram social-link"></i>
-              </div>
-            </div> -->
           </div>
-
           <div class="col-md-4 contact-img"></div>
         </div>
       </div>
     </div>
   </section>
-  <!-- Footer -->
-  <footer class="bg-info text-light">
-    <div class="row bd-info  justify-content-between pr-5 pl-5 pb-2 pt-2">
-      <ul class="ulFooter bg-info text-light">
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="index.html">Acceuil</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="actualite.html">Actualité</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="Activite.html">Activité</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="vie-pratique.html">Vie
-            pratique</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="contact.html">Contact</a></li>
-      </ul>
-      <ul class="ulFooter bg-info text-light">
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Lien d'inspiration</a></li>
-      </ul>
-      <ul class="ulFooter">
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Eric</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Samantha</a></li>
-        <li class="liFooter bg-info text-light"><a class="liFooter bg-info text-light" href="">Git Gwendaline</a></li>
-      </ul>
-    </div>
-  </footer>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="contact.js"></script>
+    <!-- Footer -->
+    <footer class="border-top">
+        <div class="container">
+          <div class="row justify-content-center">
+              <a class="nav-link text-dark" href="https://github.com/ericafenyo">Eric</a>
+              <a class="nav-link text-dark" href="https://github.com/Besnard-Samantha">Samantha</a>
+              <a class="nav-link text-dark" href="#">Gwendaline</a>
+            </div>
+            <div class="row just text-dark justify-content-center">
+              <a class="nav-link text-dark" href="index.html">Accueil</a>
+              <a class="nav-link text-dark" href="actualite.html">Actualité</a>
+              <a class="nav-link text-dark" href="activite.html">Activité</a>
+              <a class="nav-link text-dark" href="vie-pratique.html">Vie pratique</a>
+              <a class="nav-link text-dark" href="contact.html">Contact</a>
+          </div>
+        </div>
+        </div>
+      </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
