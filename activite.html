@@ -5,313 +5,127 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="./activite.css" />
-  <title>Nantes en bref | Actualité</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/src/css/activites.css" />
+  <title>Nantes en bref | Activités</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light background-white border-bottom top-bar">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse main-nav-wrapper" id="navbarSupportedContent">
-        <ul class="navbar-nav main-nav">
-          <li class="nav-item text-dark bg-info">
-            <a class="nav-link text-dark bg-info" href="index.html"><img height="10%" width="90px" src="image/logo.png"
-                alt=""></a>
-          </li>
-          <li class="nav-item text-dark ">
-            <a class="nav-link" href="./index.html">Accueil<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item text-dark ">
-            <a class="nav-link" href="./actualite.html">Actualité <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item text-dark">
-            <a class="nav-link" href="./activite.html">Activité</a>
-          </li>
-          <li class="nav-item text-dark">
-            <a class="nav-link" href="./vie-pratique.html">Vie Pratique</a>
-          </li>
-          <li class="nav-item text-dark">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  <section>
-    <div class="side-nav h-100 border">
-      <div class="listview  border-right">
-        <a href="#" class="list-item">
-          <img src="https://c1.staticflickr.com/8/7163/6511795157_16088cb18e_b.jpg" alt="Image" />
-          <div class="listview-textholder">
-            <p class="header-4 text-primary">Château des ducs de Bretagne</p>
-            <p class="caption text-caption">
-              4 Place Marc Elder, 44000 Nantes
-            </p>
-          </div>
-        </a>
-
-        <a href="#" class="list-item">
-          <img src="https://c1.staticflickr.com/4/3733/11814303606_0275aa02dd_b.jpg" alt="Image" />
-          <div class="listview-textholder">
-            <p class="header-4 text-primary">Nantes Cathedral</p>
-            <p class="caption text-caption">
-              7 Impasse Saint-Laurent, 44000 Nantes
-            </p>
-          </div>
-        </a>
-
-        <a href="#" class="list-item">
-          <img src="https://i.pinimg.com/originals/b2/59/9e/b2599effcff8f52d5e50e6d0ae26991c.jpg" alt="Image" />
-          <div class="listview-textholder">
-            <p class="header-4 text-primary">
-              Machines of the Isle of Nantes
-            </p>
-            <p class="caption text-caption">
-              Parc des Chantiers, Boulevard Léon Bureau, 44200 Nantes
-            </p>
-          </div>
-        </a>
-
-        <a href="#" class="list-item">
-          <img src="https://farm6.staticflickr.com/5553/14904995712_8438f4da92_b.jpg" alt="Image" />
-          <div class="listview-textholder">
-            <p class="header-4 text-primary">Jardin des plantes de Nantes</p>
-            <p class="caption text-caption">
-              Rue Stanislas Baudry, 44000 Nantes
-            </p>
-          </div>
-        </a>
-      </div>
-      <div class="master-detail p-4 w-100">
-        <div class="container">
-          <div class="row mb-2">
-            <div class="col-md-8 pr-0">
-              <img src="https://c1.staticflickr.com/8/7163/6511795157_16088cb18e_b.jpg" class="img-fluid" alt="Responsive image"
-                id="activity-image">
+  <main>
+    <div class="main">
+      <div class="container">
+        <div class="ui-row">
+          <div class="ui-col d-none">
+            <div class="ui-card side m-2 p-3">
+              <div class="left-image-wrapper">
+                <img class="w-100 h-100" src="https://via.placeholder.com/284" alt="">
+                <a class="ui-button open-map" href="#">Global map</a>
+              </div>
+              <div class="filter">
+                <div class="filter-item">
+                  <input type="checkbox">
+                  <p>lorel</p>
+                </div>
+                <div class="filter-item">
+                  <input type="checkbox">
+                  <p>lorel</p>
+                </div>
+                <div class="filter-item">
+                  <input type="checkbox">
+                  <p>lorel</p>
+                </div>
+                <div class="filter-item">
+                  <input type="checkbox">
+                  <p>lorel</p>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <div class="row h-100">
-                <div class="col-12 h-100 ">
-                  <div class="h-100 map "></div>
+          </div>
+          <div class="flex-fill">
+            <div class="ui-card contentbackground-white m-2 p-3">
+              <div class="d-flex">
+                <div class="list-image-wrapper">
+                  <img src="https://via.placeholder.com/180" alt="">
+                </div>
+                <div class="activity-card-body">
+                  <p>Château des ducs de Bretagne</p>
+                  <div class="rating-bar">
+                    <i class="fas fa-star fa-xs"></i>
+                    <i class="fas fa-star fa-xs"></i>
+                    <i class="fas fa-star fa-xs"></i>
+                    <i class="fas fa-star fa-xs"></i>
+                    <i class="fas fa-star fa-xs"></i>
+                  </div>
+                  <div class="">
+                    <div class="activity-detail-item">
+                      <i class="fas fa-map-marker-alt"></i>
+                      <p>Place de Bretagne, 44000, Nantes, France.</p>
+                    </div>
+                    <div class="activity-detail-item">
+                      <i class="fas fa-mobile-alt"></i>
+                      <p>+33 2 40 94 35 35</p>
+                    </div>
+                    <div class="activity-detail-item">
+                      <i class="fas fa-globe"></i>
+                      <p>Site Web</p>
+                    </div>
+                    <div class="activity-detail-item">
+                      <i class="far fa-clock"></i>
+                      <p>Fermé à l'heure actuelle.<a href=""> Voir tous les horaires.</a> </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
 
-          <p class="caption text-caption mb-3">Nantes, France</p>
-          <div>
-            <p class="header-2 text-primary mb-2" id="activity-title">Château des ducs de Bretagne</p>
-            <p class="caption text-caption mb-4" id="activity-address">4 Place Marc Elder, 44000 Nantes</p>
-          </div>
-
-          <div>
-
-            <p class="text-primary">
-              Starting in the 1990s, the town of Nantes undertook a massive
-              programme of restoration and repairs to return the site to its
-              former glory as an emblem of the history of Nantes and Brittany.
-              Following 15 years of works and three years of closure to the
-              public, it was reopened on 9 February 2007 and is now a popular
-              tourist attraction.
-            </p>
-
-            <p class="text-primary">
-              The restored edifice now includes the new Nantes History Museum,
-              installed in 32 of the castle rooms. The museum presents more than
-              850 objects of collection with the aid of multimedia devices. The
-              castle and the museum try to offer a modern vision of the heritage
-              by presenting the past, the present and the future of the city.
-              Night-time illuminations at the castle further reinforce the
-              revival of the site.
-            </p>
-          </div>
-
-          <div>
-            <ul class="list-unstyled open-hours">
-              <li><strong>Opened:</strong> 14 :00</li>
-              <li><strong>Event: </strong>Edict of Nantes</li>
-              <li><strong>Owner: </strong>Nantes</li>
-              <li><strong>Function:</strong> Castle</li>
-            </ul>
-          </div>
-
-          <div class="mb-5">
-            <div class="image-row p-0">
-              <div class="column pl-0">
-                <img src="https://farm9.staticflickr.com/8406/28254089734_b696372d26_b.jpg" style="width:100%">
-                <img src="https://c1.staticflickr.com/5/4601/38279880824_183bc4d7f5_b.jpg" style="width:100%">
-                <img src="https://farm6.staticflickr.com/5610/15591473216_9571a5c863_b.jpg" style="width:100%">
-              </div>
-              <div class="column">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/La_galerie_des_machines_%28%C3%AEle_de_Nantes%29_%287162972497%29.jpg"
-                  style="width:100%">
-                <img src="https://i.pinimg.com/originals/b2/59/9e/b2599effcff8f52d5e50e6d0ae26991c.jpg" style="width:100%">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Flickr_-_IngolfBLN_-_Nantes_-_Busway_-_Ligne_4_-_Duchesse_Anne_-_Ch%C3%A2teau_des_Ducs_de_Bretagne_%282%29.jpg"
-                  style="width:100%">
-              </div>
-              <div class="column">
-                <img src="https://farm6.staticflickr.com/5553/14904995712_8438f4da92_b.jpg" style="width:100%">
-                <img src="https://c1.staticflickr.com/5/4671/39332405784_fba09d87cd_b.jpg" style="width:100%">
-                <img src="https://c1.staticflickr.com/8/7133/7717473276_a1d4c92c13_b.jpg" style="width:100%">
-              </div>
-              <div class="column pr-0">
-                <img src="https://farm1.staticflickr.com/916/26666511197_6acfc6e6f7_b.jpg" style="width:100%">
-                <img src="https://farm2.staticflickr.com/1880/44517811291_32f214b271_b.jpg" style="width:100%">
-              </div>
-            </div>
-          </div>
-
-          <div class="mb-5">
-            <div class="row">
-              <div class="col">
-                <p class="header-3">Review summary</p>
-              </div>
-
-              <div class="col">
+          <div class="ui-col">
+            <div class="ui-card side m-2">
+              <div class="">
                 <div class="">
-
-                  <button class="btn button-text">
-                    <i class="fas fa-plus mr-1"></i>
-                    <span>Write a review</span>
-                  </button>
-
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-7">
-                <div>
-                  <div>
-                    <div class="progress mb-2">
-                      <div class="progress-bar  bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">
-                      </div>
-                    </div>
-                    <div class="progress  mb-2">
-                      <div class="progress-bar  bg-warning" role="progressbar" style="width: 75%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">
-                      </div>
-                    </div>
-                    <div class="progress  mb-2">
-                      <div class="progress-bar  bg-warning" role="progressbar" style="width: 25%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">
-                      </div>
-                    </div>
-                    <div class="progress  mb-2">
-                      <div class="progress-bar  bg-warning" role="progressbar" style="width: 10%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">
-                      </div>
-                    </div>
-                    <div class="progress">
-                      <div class="progress-bar  bg-warning" role="progressbar" style="width: 5%;" aria-valuenow="25"
-                        aria-valuemin="0" aria-valuemax="100">
-                      </div>
-                    </div>
+                  <div class="">
+                    <img src="https://via.placeholder.com/284" alt="">
                   </div>
-                </div>
-              </div>
-
-              <div class="col-5 ">
-                <div>
-                  <div class="d-flex align-items-center justify-content-center">
-                    <div class="header-1  mr-2">52%</div>
-                    <div>
-                      <div>Excellent</div>
-                      <div>
-                        <i class="fa fa-star fa-xs checked"></i>
-                        <i class="fa fa-star fa-xs checked"></i>
-                        <i class="fa fa-star fa-xs checked"></i>
-                        <i class="fa fa-star fa-xs"></i>
-                        <i class="fa fa-star fa-xs"></i>
-                      </div>
-                      <div>Excellent</div>
-                    </div>
-                  </div>
-                  <div>
+                  <div class="">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Lorem, ipsum dolor.</p>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div class="mb-5">
-            <p class="header-3 text-primary ">Reviews</p>
-            <li class="media border-bottom mb-4 review">
-              <img src="https://images.unsplash.com/photo-1543344078-ab25e2a8939f?auto=format&fit=crop&w=100&h=100"
-                class="mr-3 rounded-circle" alt="Avatar">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                <p>February 2019</p>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                  sollicitudin. Cras
-                  purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi
-                  vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-              </div>
-            </li>
-            <li class="media border-bottom review mb-4">
-              <img src="https://images.unsplash.com/photo-1550927312-3af3c565011f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1700&q=80"
-                class="mr-3 rounded-circle" alt="Avatar">
-              <div class="media-body">
-                <h5 class="mt-0 mb-1">List-based media object</h5>
-                <p>February 2019</p>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                  sollicitudin. Cras
-                  purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                  nisi
-                  vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-              </div>
-            </li>
-            <li class="media review">
-              <img src="https://images.unsplash.com/photo-1550846158-56423fdc9cc9?auto=format&fit=crop&w=100&h=100"
-                class="mr-3 rounded-circle" alt="Avatar">
-              <div class="media-body">
-                <div class="media-body">
-                  <h5 class="mt-0 mb-1">List-based media object</h5>
-                  <p>February 2019</p>
-                  <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante
-                    sollicitudin. Cras
-                    purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
-                    nisi
-                    vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-                </div>
-            </li>
-            </ul>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="border-top">
-    <div class="container">
-      <div class="row justify-content-center">
-        <a class="nav-link text-dark" href="https://github.com/ericafenyo">Eric</a>
-        <a class="nav-link text-dark" href="https://github.com/Besnard-Samantha">Samantha</a>
-        <a class="nav-link text-dark" href="#">Gwendaline</a>
-      </div>
-      <div class="row just text-dark justify-content-center">
-        <a class="nav-link text-dark" href="index.html">Accueil</a>
-        <a class="nav-link text-dark" href="actualite.html">Actualité</a>
-        <a class="nav-link text-dark" href="activite.html">Activité</a>
-        <a class="nav-link text-dark" href="vie-pratique.html">Vie pratique</a>
-        <a class="nav-link text-dark" href="contact.html">Contact</a>
+        <nav aria-label="...">
+          <ul class="pagination">
+            <li class="page-item disabled">
+              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item active" aria-current="page">
+              <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+  </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
   <script src="./activite.js"></script>
 </body>

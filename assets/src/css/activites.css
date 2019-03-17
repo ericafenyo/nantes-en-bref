@@ -1,0 +1,90 @@
+@import url("./bootstrap.css");
+body {
+    background: #f2f2f2;
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+.ui-container {
+    max-width: 1280px;    
+    margin: 0 auto;
+}
+
+.ui-card {
+    border-radius: 2px;
+    box-shadow: 0 0 3px 0 rgba(105, 112, 127, 0.46);
+}
+
+.m-8px {
+    margin: 8px;
+}
+
+.ui-row {
+    display: flex;
+}
+
+.side {
+    width: 312px;
+    background-color: #ffffff;
+}
+
+.open-map {
+    position: absolute;
+    background: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(105, 112, 127, 0.46);
+}
+
+.left-image-wrapper {
+    height: 180px;
+    position: relative;
+}
+
+.filter {
+    margin: 24px 0;
+}
+
+.filter p {
+    margin: 0;
+}
+
+.filter-item {
+    padding: 8px 0;
+    display: flex;
+    align-items: center
+}
+
+.filter-item input {
+    margin-right: 8px;
+}
+
+.activity-detail-item {
+    display: flex;
+    justify-items: center;
+}
+
+.activity-detail-item i {
+    margin-right: 8px;
+}
+
+.activity-detail-item p {
+    margin: 0;
+}
+
+.list-image-wrapper {
+    width: 180px;
+    height: 180px;
+    margin-right: 16px;
+}
+
+.backgroud-white {
+    background: #ffffff;
+}
