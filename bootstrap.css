@@ -10565,25 +10565,44 @@ a.text-dark:hover, a.text-dark:focus {
   color: #2e384d !important;
 }
 
+.text-caption {
+  color: #6B6C6F;
+}
+
+.hoz-divider {
+  height: 1px;
+  width: 100%;
+  background: #EAEDF3;
+  margin: 24px 0;
+}
+
 .caption {
+  margin: 0;
+  padding: 0;
   -moz-tab-size: 12px;
     -o-tab-size: 12px;
        tab-size: 12px;
 }
 
 .header-1 {
+  margin: 0;
+  padding: 0;
   font-size: 48px;
   font-weight: 300;
   line-height: 0.94;
 }
 
 .header-2 {
+  margin: 0;
+  padding: 0;
   font-size: 34px;
   font-weight: 300;
   line-height: 0.94;
 }
 
 .header-3 {
+  margin: 0;
+  padding: 0;
   line-height: 1.2;
   color: #2e384d;
   margin-bottom: 8px;
@@ -10592,16 +10611,19 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .header-4 {
-  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.2;
 }
 
 .caption {
-  font-size: 14px;
-  line-height: 1.375rem;
-  margin-top: 5px;
   margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  padding: .375rem 0;
 }
 
 .background-white {
@@ -10609,7 +10631,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-caption {
-  color: #9EA0A5;
+  color: #6B6C6F;
 }
 
 .text-primary {
@@ -10659,5 +10681,87 @@ a.text-dark:hover, a.text-dark:focus {
 
 .opacity-0 {
   opacity: 0;
+}
+
+.rating-bar i {
+  color: #ddd;
+}
+
+.star-checked {
+  color: var(--info) !important;
+}
+
+.filter-item:hover .checkbox:before {
+  background: rgba(188, 188, 188, 0.25);
+}
+
+.filter-item input:checked {
+  background: #000;
+}
+
+.checkbox {
+  display: block;
+  position: relative;
+  padding-left: 26px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.check-mark {
+  position: absolute;
+  top: 0;
+  margin-top: 4px;
+  left: 0;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  border: 1px solid #D8DCE6;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(22, 29, 37, 0.05), inset 0 2px 0 0 rgba(255, 255, 255, 0.05);
+          box-shadow: 0 1px 1px 0 rgba(22, 29, 37, 0.05), inset 0 2px 0 0 rgba(255, 255, 255, 0.05);
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox:hover input ~ .check-mark {
+  background-color: rgba(221, 221, 221, 0.25);
+}
+
+/* When the radio button is checked, add a blue background */
+.checkbox input:checked ~ .check-mark {
+  background-color: #2196F3;
+  border: 1px solid #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.check-mark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.checkbox input:checked ~ .check-mark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkbox .check-mark:after {
+  top: 4.4px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: white;
 }
 /*# sourceMappingURL=bootstrap.css.map */
