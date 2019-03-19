@@ -1,3 +1,4 @@
+
 /*************************************************Acceuil ****************************************************/
 /* Footer */
 .liFooter{
@@ -22,7 +23,7 @@
   flex-direction: column;
   margin-bottom: 2%;
   width:300px;
-  heigth:669px;
+  height:669px;
   overflow: hidden;
 }
 .text1{

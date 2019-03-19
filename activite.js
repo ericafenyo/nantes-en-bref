@@ -1,3 +1,5 @@
+
+  
 const listItem = document.querySelectorAll('.list-item');
 const titleElement = document.getElementById('activity-title');
 const addressElement = document.getElementById('activity-address');

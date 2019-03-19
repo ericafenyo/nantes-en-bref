@@ -1,3 +1,4 @@
+
 $(document).ready(() => {
   $("#submit-button").click(event => {
     //Prevent default onClick event behaviour.
