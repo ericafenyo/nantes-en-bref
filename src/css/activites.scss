@@ -123,3 +123,13 @@ body {
 .incoming-events .image-holder {
     height: 140px;
 }
+
+.activity-item {
+    padding: 16px;
+    border-bottom: 1px solid #EAEDF3;
+
+    &:hover{
+        background: rgba($color: #2e5bff, $alpha: 0.05);
+        cursor: pointer;
+    }
+}
