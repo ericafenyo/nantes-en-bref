@@ -1,77 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./src/css/activites.css" />
+    <title>Nantes en bref | Activités</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="./src/css/activites.css" />
-  <title>Nantes en bref | Activités</title>
-</head>
-
-<body>
-  <main>
-    <div class="main">
-      <div class="container">
-        <div class="ui-row">
-          <div class="ui-col">
-            <div class="ui-card side m-2 p-3">
-              <div class="left-image-wrapper">
-                <img class="w-100 h-100" src="./assets/img/map-thumbnail.png" alt="">
-                <a class="ui-button open-map" href="#">Global map</a>
-              </div>
-              <div class="hoz-divider"></div>
-              <div class="filter">
-                <p class="header-4 mb-3">Filtres</p>
-                <label class="checkbox">Toutes les activités
-                  <input type="radio" name="radio">
-                  <span class="check-mark"></span>
-                </label>
-                <label class="checkbox">Sites historiques
-                  <input type="radio" name="radio">
-                  <span class="check-mark"></span>
-                </label>
-                <label class="checkbox">Églises et cathédrales
-                  <input type="radio" name="radio">
-                  <span class="check-mark"></span>
-                </label>
-                <label class="checkbox">Bâtiments architecturaux
-                  <input type="radio" name="radio">
-                  <span class="check-mark"></span>
-                </label>
-                <label class="checkbox">Châteaux
-                  <input type="radio" name="radio">
-                  <span class="check-mark"></span>
-                </label>
-              </div>
-            </div>
-
+  <body>
+    <main>
+      <div class="main">
+        <div class="container">
+          <div class="ui-row">
             <div class="ui-col">
               <div class="ui-card side m-2 p-3">
-                <div class="incoming-events" id="incoming-events">
-                  <div class="event">
-                    <div class="image-holder">
-                      <img src="assets/img/image-2.png" class="h-100 w-100" alt="">
+                <div class="left-image-wrapper">
+                  <img
+                    class="w-100 h-100"
+                    src="./assets/img/map-thumbnail.png"
+                    alt=""
+                  />
+                  <a class="ui-button open-map" href="#">Global map</a>
+                </div>
+                <div class="hoz-divider"></div>
+                <div class="filter">
+                  <p class="header-4 mb-3">Filtres</p>
+                  <label class="checkbox"
+                    >Toutes les activités
+                    <input type="radio" name="radio" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="checkbox"
+                    >Sites historiques
+                    <input type="radio" name="radio" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="checkbox"
+                    >Églises et cathédrales
+                    <input type="radio" name="radio" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="checkbox"
+                    >Bâtiments architecturaux
+                    <input type="radio" name="radio" />
+                    <span class="check-mark"></span>
+                  </label>
+                  <label class="checkbox"
+                    >Châteaux
+                    <input type="radio" name="radio" />
+                    <span class="check-mark"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="ui-col">
+                <div class="ui-card side m-2 p-3">
+                  <div class="incoming-events" id="incoming-events">
+                    <div class="event">
+                      <div class="image-holder">
+                        <img
+                          src="assets/img/image-2.png"
+                          class="h-100 w-100"
+                          alt=""
+                        />
+                      </div>
+                      <div class="mt-2">
+                        <p class="m-0 caption text-caption">
+                          JEU, 16 SEPT. 09:30
+                        </p>
+                        <p class="m-0 ">
+                          Nantes Digital Week : lancement de l'appel à
+                          manifestation 2019
+                        </p>
+                        <p class="m-0 caption text-caption">
+                          Atlanbois, Nantes
+                        </p>
+                      </div>
                     </div>
-                    <div class="mt-2">
-                      <p class="m-0 caption text-caption">JEU, 16 SEPT. 09:30</p>
-                      <p class="m-0 ">Nantes Digital Week : lancement de l'appel à manifestation 2019</p>
-                      <p class="m-0 caption text-caption">Atlanbois, Nantes</p>
+
+                    <div class="hoz-divider"></div>
+
+                    <div class="event mt-3">
+                      <div class="image-holder">
+                        <img
+                          src="./assets/img/image-01.png"
+                          class="h-100 w-100"
+                          alt=""
+                        />
+                      </div>
+                      <div class="mt-2">
+                        <p class="m-0 caption text-caption">
+                          MAR., 18 SEPT. 14:00
+                        </p>
+                        <p class="m-0 ">Rencontre professionnelle SensoVR</p>
+                        <p class="m-0 caption text-caption">
+                          BIOFORTIS, Saint-Herblain
+                        </p>
+                      </div>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
 
-                  <div class="hoz-divider"></div>
-                  
-                  <div class="event mt-3">
-                    <div class="image-holder">
-                      <img src="./assets/img/image-01.png" class="h-100 w-100" alt="">
+            <div class="flex-fill">
+              <div class="ui-card content background-white m-2 p-3">
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
                     </div>
-                    <div class="mt-2">
-                      <p class="m-0 caption text-caption">MAR., 18 SEPT. 14:00</p>
-                      <p class="m-0 ">Rencontre professionnelle SensoVR</p>
-                      <p class="m-0 caption text-caption">BIOFORTIS, Saint-Herblain</p>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="hoz-divider"></div>
+                <!-- Item 2-->
+                <div class=" d-flex">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1552650904-dbf7f7b96941?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">
+                      Cathédrale de Saint-Pierre et Saint-Paul
+                    </p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://media-cdn.tripadvisor.com/media/photo-f/16/be/89/52/20190309-165915-largejpg.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Les Machines de L'ile</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Les Chantiers | Bd Léon Bureau, 44200, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Ouvert aujourd'hui : 10:00 - 17:00
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Item 1-->
+                <div class="d-flex ">
+                  <div class="list-image-wrapper">
+                    <img
+                      src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
+                      alt=""
+                    />
+                  </div>
+                  <div class="activity-card-body">
+                    <p class="header-3">Château des ducs de Bretagne</p>
+                    <div class="rating-bar mb-2">
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs star-checked"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                      <i class="fas fa-star fa-xs"></i>
+                    </div>
+                    <div class="">
+                      <div class="activity-detail-item">
+                        <i class="fas fa-map-marker-alt text-caption"></i>
+                        <p class="caption text-caption ">
+                          Place de Bretagne, 44000, Nantes, France
+                        </p>
+                      </div>
+                      <div class="activity-detail-item">
+                        <i class="far fa-clock text-caption"></i>
+                        <p class="caption text-caption">
+                          Fermé à l'heure actuelle
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -79,94 +628,43 @@
             </div>
           </div>
 
-          <div class="flex-fill d-none">
-            <div class="ui-card content background-white m-2 p-3">
-              <!-- Item 1-->
-              <div class="d-flex ">
-                <div class="list-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1469571486292-0ba58a3f068b?auto=format&fit=crop&w=200&h=200"
-                    alt="">
-                </div>
-                <div class="activity-card-body">
-                  <p class="header-3">Château des ducs de Bretagne</p>
-                  <div class="rating-bar mb-2">
-                    <i class="fas fa-star fa-xs star-checked"></i>
-                    <i class="fas fa-star fa-xs star-checked"></i>
-                    <i class="fas fa-star fa-xs"></i>
-                    <i class="fas fa-star fa-xs"></i>
-                    <i class="fas fa-star fa-xs"></i>
-                  </div>
-                  <div class="">
-                    <div class="activity-detail-item">
-                      <i class="fas fa-map-marker-alt text-caption"></i>
-                      <p class="caption text-caption ">Place de Bretagne, 44000, Nantes, France</p>
-                    </div>
-                    <div class="activity-detail-item">
-                      <i class="far fa-clock text-caption"></i>
-                      <p class="caption text-caption">Fermé à l'heure actuelle</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="hoz-divider"></div>
-              <!-- Item 2-->
-              <div class=" d-flex">
-                <div class="list-image-wrapper">
-                  <img src="https://images.unsplash.com/photo-1552650904-dbf7f7b96941?auto=format&fit=crop&w=200&h=200"
-                    alt="">
-                </div>
-                <div class="activity-card-body">
-                  <p class="header-3">Cathédrale de Saint-Pierre et Saint-Paul</p>
-                  <div class="rating-bar mb-2">
-                    <i class="fas fa-star fa-xs star-checked"></i>
-                    <i class="fas fa-star fa-xs star-checked"></i>
-                    <i class="fas fa-star fa-xs star-checked"></i>
-                    <i class="fas fa-star fa-xs"></i>
-                    <i class="fas fa-star fa-xs"></i>
-                  </div>
-                  <div class="">
-                    <div class="activity-detail-item">
-                      <i class="fas fa-map-marker-alt text-caption"></i>
-                      <p class="caption text-caption ">Place de Bretagne, 44000, Nantes, France</p>
-                    </div>
-                    <div class="activity-detail-item">
-                      <i class="far fa-clock text-caption"></i>
-                      <p class="caption text-caption">Fermé à l'heure actuelle</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
+          <nav aria-label="...">
+            <ul class="pagination">
+              <li class="page-item disabled">
+                <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+                  >Previous</a
+                >
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#"
+                  >2 <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-
-        <nav aria-label="...">
-          <ul class="pagination">
-            <li class="page-item disabled">
-              <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">1</a></li>
-            <li class="page-item active" aria-current="page">
-              <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="page-item"><a class="page-link" href="#">3</a></li>
-            <li class="page-item">
-              <a class="page-link" href="#">Next</a>
-            </li>
-          </ul>
-        </nav>
       </div>
-    </div>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="./activite.js"></script>
-</body>
-
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./activite.js"></script>
+  </body>
 </html>
