@@ -17,7 +17,7 @@ body {
 .ui-card {
   border-radius: 2px;
   -webkit-box-shadow: 0 0 3px 0 rgba(105, 112, 127, 0.46);
-          box-shadow: 0 0 3px 0 rgba(105, 112, 127, 0.46);
+  box-shadow: 0 0 3px 0 rgba(105, 112, 127, 0.46);
 }
 
 .m-8px {
@@ -38,12 +38,21 @@ body {
 .open-map {
   position: absolute;
   background: white;
+  -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.04);
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.04);
   padding: 8px 16px;
+  font-weight: 500;
+  color: var(--primary);
   border-radius: 4px;
   top: 50%;
   right: 10%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.open-map:hover {
+  text-decoration: none;
+  color: var(--primary);
 }
 
 .left-image-wrapper {
@@ -65,8 +74,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .filter-item input {
@@ -79,8 +88,8 @@ body {
   display: flex;
   justify-items: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .activity-detail-item i {
@@ -104,6 +113,10 @@ body {
 
 .incoming-events .event {
   width: 280px;
+}
+
+.incoming-events .event:hover {
+  cursor: pointer;
 }
 
 .incoming-events .image-holder {

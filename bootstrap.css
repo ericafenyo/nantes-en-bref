@@ -10757,8 +10757,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* Style the indicator (dot/circle) */
 .checkbox .check-mark:after {
-  top: 4.4px;
-  left: 4px;
+  top: 3.8px;
+  left: 3.8px;
   width: 6px;
   height: 6px;
   border-radius: 50%;
