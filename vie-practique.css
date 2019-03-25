@@ -5,3 +5,12 @@ body {
   height: calc(100%-(73px));
 }
 /*# sourceMappingURL=vie-practique.css.map */
+
+/* gastronomie nantaise début*/
+
+h5 {
+  font-size: 25px;
+  text-shadow: 5px 2px 4px grey;
+}
+
+/* gastronomie nantaise fin*/
